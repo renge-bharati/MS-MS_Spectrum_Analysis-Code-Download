@@ -4,7 +4,6 @@ import joblib
 
 # Load model and feature names
 model = joblib.load("random_forest_model.pkl")
-features = joblib.load("model_features.pkl")
 
 st.set_page_config(page_title="Random Forest Prediction", layout="centered")
 
